@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<title>Tienda Online</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimun-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+	<link rel="icon" type="image/png" href="img/lente4.jpg">
+</head>
+<body>
+	<header class="main-header">
+		<div class="container container--flex ">	
+		  <div class="main-header__container">	
+		     <h1 class="main-header__title">MULAS</h1>
+		     <span class="icon-menu" id="btn-menu"><i class="fas fa-bars"></i></span>
+		     <nav class="main-nav" id="main-nav">
+		     <ul class="menu">
+		       <li class="menu__item"><a href="" class="menu__link">HOME</a>HOME</li>
+		       <li class="menu__item"><a href="" class="menu__link">ABOUT</a>ABOUT</li>
+		       <li class="menu__item"><a href="" class="menu__link">FEATURES</a>FEATURES</li>
+		       <li class="menu__item"><a href="" class="menu__link">SHOP</a>SHOP</li>
+		       <li class="menu__item"><a href="" class="menu__link">CONTACT</a>CONTACT</li>
+		     </ul>
+		     </nav>
+	       </div>
+		<div class="main-header__container">
+			<span class="main-header__txt">Need Help</span>
+			<p class="main-header__txt"><i class="fas fa-phone"></i>Call 2324501347</p>
+		</div>
+		<div class="main-header__container">
+			<a href="" class="main-header__link"><i class="fas fa-user"></i></a>
+			<a href=""class="main-header__btn">My cart<i class="fas fa-shopping-cart"></i></a>
+			<input type="serch" class="main-header__input" placeholder="Buscar Productos"><i class="fas fa-search"></i>
+		</div>
+        </div>
+	</header>
+    <div class="container-slider">
+  	 <div class="slider" id="slider">
+  	 	<div class="slider__section">
+  	 		<img src="img/img1.jpg" alt="" class="slider__img">
+  	 		<div class="slider__content">
+  	 		<h2 class="slider__title">Men's eyewear</h2>
+  	 		<p class="slider__txt">Cool summer sale 50% off</p>
+  	 		<a href="" class="btn-shop">SHOP NOW</a>	
+  	 		</div> 
+  	 	</div>
+  	 	<div class="slider__section">
+  	 		<img src="img/img2.jpg" alt="" class="slider__img">
+  	 		<div class="slider__content">
+  	 		<h2 class="slider__title">Women's eyewear</h2>
+  	 		<p class="slider__txt">Cool summer sale 50% off</p>
+  	 		<a href="" class="btn-shop">SHOP NOW</a>	 
+  	 		</div>
+  	 	</div>
+  	 	<div class="slider__section">
+  	 		<img src="img/img3.jpg" alt="" class="slider__img">
+  	 	<div class="slider__content">
+  	 		<h2 class="slider__title">Women's eyewear</h2>
+  	 		<p class="slider__txt">Cool summer sale 50% off</p>
+  	 		<a href="" class="btn-shop">SHOP NOW</a>	 
+  	 		</div>
+  	 	</div>
+  	 	<div class="slider__section">
+  	 		<img src="img/img4.jpg" alt="" class="slider__img">
+  	 	<div class="slider__content">
+  	 		<h2 class="slider__title">Men's eyewear</h2>
+  	 		<p class="slider__txt">Cool summer sale 50% off</p>
+  	 		<a href="" class="btn-shop">SHOP NOW</a>	
+  	 		</div>
+  	 	</div> 	 		 	 		
+  	 </div>	
+  	  <div class="slider__btn slider__btn--right" id="btn-right">&#62;</div>
+  	  <div class="slider__btn slider__btn--left" id="btn-left" >&#60;</div>
+  	</div>
+  	<main class="main">
+  	 <div class="container">
+  		<h2 class="main-title">New arrivals for you</h2>
+  		 <section class="container-products">
+			<div id="productosContenedor" class="card-columns">
+  		<!--<div class="product">
+  			<img src="img/lente1.jpg" alt="" class="product__img">
+  			<div class="product__description"></div>
+  			<h3 class="product__title">Farenheit (Grey)</h3>
+  			<span class="product__price">575.00</span><br>
+  			<a href="" class="cta"><i class="product__icon fas fa-cart-plus" ></i></a>
+  		</div>
+  		<div class="product">
+  			<img src="img/lente2.jpg" alt="" class="product__img">
+  			<div class="product__description"></div>
+  			<h3 class="product__title">Opium (Grey)</h3>
+  			<span class="product__price">575.00</span><br>	
+  			<a href="" class="cta"><i class="product__icon fas fa-cart-plus" class="cta"></i></a>
+  		</div>
+  		<div class="product">
+  			<img src="img/lente3.jpg" alt="" class="product__img">
+  			<div class="product__description"></div>
+  			<h3 class="product__title">Kenneth Cole</h3>
+  			<span class="product__price">325.00</span><br>
+  			<i class="product__icon fas fa-cart-plus" class="cta"></i>	
+  		</div>
+  		<div class="product">
+  			<img src="img/lente4.jpg" alt="" class="product__img">
+  			<div class="product__description"></div>
+  			<h3 class="product__title">Farenheit Oval</h3>
+  			<span class="product__price">325.00</span><br>
+  			<i class="product__icon fas fa-cart-plus" class="cta"></i>
+  		</div> -->
+  	 </div>
+  		</section>
+  		<section class="container__testimonials">
+  			<h2 class="section__title">Testimonials</h2>
+  			<h3 class="testimonials__title">Anamaria</h3>
+  			<p class="testimonial__txt">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+  			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+  			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+  			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+  			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+  			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  		</section>
+
+        <div class="container-editor">
+        	<div class="editor__item">
+        		<img src="img/img6.jpg" alt="" class="editor__img">
+        		<p class="editor__circle">EXPRESS YOUR STYLE NOW</p>
+        	 </div>
+        	<div class="editor__item">
+        		<img src="img/img7.jpg" alt="" class="editor__img">
+        		<p class="editor__circle">EXPRESS YOUR STYLE NOW</p>
+        	 </div>
+        </div>
+
+         <section class="container-tips">
+         	<div class="tip">
+         		<i class="far fa-hand-paper"></i>
+         		<h2 class="tip__title">Satisfaction Guaranteed</h2>
+         		<p class="tip__txt">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+         		tempor incididunt ut labore et dolore magna aliqua.</p>
+         		<a href="" class="btn-shop" class="cta">SHOP NOW</a>
+         	</div>
+         	<div class="tip">
+                <i class="fas fa-rocket"></i>
+         		<h2 class="tip__title">Fast Shipping</h2>
+         		<p class="tip__txt">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+         		tempor incididunt ut labore et dolore magna aliqua.</p>
+         		<a href="" class="btn-shop" class="cta">SHOP NOW</a>
+         	</div>
+         	<div class="tip">
+                <i class="fas fa-cog"></i>
+         		<h2 class="tip__title">UV Protection</h2>
+         		<p class="tip__txt">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+         		tempor incididunt ut labore et dolore magna aliqua.</p>
+         		<a href="" class="btn-shop" class="cta">SHOP NOW</a>
+         	</div>
+         </section>
+		 <form id="registrarContacto">
+            <input type="text" placeholder="Ingrese nombre">
+            <input type="number" placeholder="Ingrese telefono">
+            <input type="text" placeholder="Ingrese direccion">
+            <input type="submit" value="Guardar">
+        </form><hr>
+		<div>
+			<div class="contenedor-textos">
+				<a href="#" class="cta">Modal</a>
+     						
+		</div>
+
+		<div class="modal-container">
+			<div class="modal modal-close">
+				<p class="close">X</p>
+				<img src="img/ilustracion.png" alt="">
+				<div class="modal-textos">
+					<h2>Gracias por tu compra</h2>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>					
+					<div id="divDinamico"></div>				
+				</div>
+			</div>
+		</div>
+
+  	</main>
+  	<footer class="main-footer">
+  		 <div class="footer__section">
+  		 <h2 class="footer__title">Abouts Us</h2>
+  		 <p class="footer__txt">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+  		 tempor incididunt ut labore et dolore magna aliqua.</p>
+  		 </div>
+  		 <div class="footer__section">
+  		 <h2 class="footer__title">Location</h2>
+  		 <p class="footer__txt">0926k 4th block building, king Avenue, New York City.</p>
+  		 <h2 class="footer__title">Contact</h2>
+  		 <p class="footer__txt">Phone : +121 098 8907</p>
+  		 <p class="footer__txt">Email: info@example.com</p>
+  		 </div>
+         <div class="footer__section">
+         	<h2 class="footer__title">Quick Links</h2>
+         	<a href="" class="footer__link">Home</a>
+         	<a href="" class="footer__link">About</a>
+         	<a href="" class="footer__link">Error</a>
+         	<a href="" class="footer__link">Shop</a>
+         	<a href="" class="footer__link">Contact Us</a>
+         </div>
+  		 <div class="footer__section">
+  		 <h2 class="footer__title">Sing up for your offers</h2>
+  		 <p class="footer__txt">By subscribing yo our mailing list you will always get latest new and updates from us.</p>
+  		 </div>
+  		 <input type="Email" class="footer__input" placeholder="Enter your email">
+  		 <p class="copy">® 2021 Mulas. All Rights reserved|Desing by Ivo Bandoni|</p>
+  	</footer>
+	  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+        <script src="js/globales.js"></script>
+        <script src="js/funciones.js"></script>
+        <script src="js/producto.js"></script>
+        <script src="js/main.js"></script>
+		<script src="js/slider.js"></script>	
+</body>
+</html> 
