@@ -31,7 +31,15 @@
 		</div>
 		<div class="main-header__container">
 			<a href="" class="main-header__link"><i class="fas fa-user"></i></a>
-			<a href=""class="main-header__btn">My cart<i class="fas fa-shopping-cart"></i></a>
+			
+			<div class="dropdown">
+				<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					<a href=""class="main-header__btn">My cart<i class="fas fa-shopping-cart"></i></a> <span id="carritoCantidad" class="badge badge-light">0</span>
+				</button>
+				<div id="carritoProductos" class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+				<!--ACA SE GENERAN LOS ELEMENTOS DEL CARRITO-->
+				</div>
+			</div>
 			<input type="serch" class="main-header__input" placeholder="Buscar Productos"><i class="fas fa-search"></i>
 		</div>
         </div>
@@ -84,28 +92,28 @@
   			<div class="product__description"></div>
   			<h3 class="product__title">Farenheit (Grey)</h3>
   			<span class="product__price">575.00</span><br>
-  			<a href="" class="cta"><i class="product__icon fas fa-cart-plus" ></i></a>
+  			<a href="" ><i class="product__icon fas fa-cart-plus" ></i></a>
   		</div>
   		<div class="product">
   			<img src="img/lente2.jpg" alt="" class="product__img">
   			<div class="product__description"></div>
   			<h3 class="product__title">Opium (Grey)</h3>
   			<span class="product__price">575.00</span><br>	
-  			<a href="" class="cta"><i class="product__icon fas fa-cart-plus" class="cta"></i></a>
+  			<a href="" ><i class="product__icon fas fa-cart-plus" class="cta"></i></a>
   		</div>
   		<div class="product">
   			<img src="img/lente3.jpg" alt="" class="product__img">
   			<div class="product__description"></div>
   			<h3 class="product__title">Kenneth Cole</h3>
   			<span class="product__price">325.00</span><br>
-  			<i class="product__icon fas fa-cart-plus" class="cta"></i>	
+  			<i class="product__icon fas fa-cart-plus" ></i>	
   		</div>
   		<div class="product">
   			<img src="img/lente4.jpg" alt="" class="product__img">
   			<div class="product__description"></div>
   			<h3 class="product__title">Farenheit Oval</h3>
   			<span class="product__price">325.00</span><br>
-  			<i class="product__icon fas fa-cart-plus" class="cta"></i>
+  			<i class="product__icon fas fa-cart-plus" ></i>
   		</div> -->
   	 </div>
   		</section>
@@ -160,11 +168,8 @@
             <input type="text" placeholder="Ingrese direccion">
             <input type="submit" value="Guardar">
         </form><hr>
-		<div>
-			<div class="contenedor-textos">
-				<a href="#" class="cta">Modal</a>
-     						
-		</div>
+		
+		<a id="arriba">Ir al inicio</a>
 
 		<div class="modal-container">
 			<div class="modal modal-close">

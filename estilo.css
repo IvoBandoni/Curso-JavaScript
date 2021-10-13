@@ -490,3 +490,7 @@ margin: 5px 0;
 		margin: auto;
 	}
 }
+
+#arriba {
+	cursor: pointer;
+}

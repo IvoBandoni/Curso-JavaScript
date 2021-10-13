@@ -9,7 +9,14 @@ productosUI(productos, '#productosContenedor');
 
 
 
+$(document).ready(function () {
+    console.log('Dom Listo');  
+    
+    $(".btn-compra").click(comprarProducto);
 
+
+    
+});
 
 
 
@@ -40,3 +47,6 @@ registrarContacto.onsubmit= (event) => {
 }
 
 let ejemploContacto = JSON.parse(localStorage.getItem('contactos'));
+
+
+$(".main-footer").animate({opacity: 0.4},3000).delay(2000).fadeOut(2000);
