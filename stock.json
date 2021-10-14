@@ -1,0 +1,22 @@
+[
+{   "id": 1, 
+    "nombre": "Farenheit (Grey)", 
+    "precio": 65, 
+    "image": "img/lente1.jpg"
+},
+{   "id":2,
+    "nombre": "Opium (Grey)",
+    "precio": 120, 
+    "image": "./img/lente2.jpg"
+},
+{   "id":3,
+    "nombre": "Kenneth Cole",
+    "precio": 60,
+    "image": "./img/lente3.jpg"
+},
+{   "id":4,
+    "nombre": "Farenheit Oval",
+    "precio": 75,
+    "image": "./img/lente4.jpg"
+}
+]

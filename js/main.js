@@ -1,11 +1,14 @@
-
+/*
 productos.push(new Producto(1, "Farenheit (Grey)", 65, "img/lente1.jpg"));
 productos.push(new Producto(2, "Opium (Grey)", 120, "./img/lente2.jpg"));
 productos.push(new Producto(3, "Kenneth Cole", 60, "./img/lente3.jpg"));
 productos.push(new Producto(4, "Farenheit Oval", 75, "./img/lente4.jpg"));
+*/
+
+
 
 console.log(productos);
-productosUI(productos, '#productosContenedor');
+
 
 
 
@@ -49,4 +52,9 @@ registrarContacto.onsubmit= (event) => {
 let ejemploContacto = JSON.parse(localStorage.getItem('contactos'));
 
 
-$(".main-footer").animate({opacity: 0.4},3000).delay(2000).fadeOut(2000);
+$(".main-footer").animate({opacity: 0.8},3000).delay(2000).fadeIn(2000);
+
+
+
+//llamada AJAX
+
